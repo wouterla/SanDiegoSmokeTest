@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class SearchFromMainPageSpec</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class SearchFromMainPageSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; SearchFromMainPageSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">3</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">10.985s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="An empty search should have results"></a>
+<h3 class="failures">An empty search should have results</h3>
+<span class="code">
+<pre>Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.An empty search should have results(SearchFromMainPageSpec.groovy:9)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Searching on Amsterdam gets top result in Amsterdam"></a>
+<h3 class="failures">Searching on Amsterdam gets top result in Amsterdam</h3>
+<span class="code">
+<pre>Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.Searching on Amsterdam gets top result in Amsterdam(SearchFromMainPageSpec.groovy:37)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Top search result for test contains test in title"></a>
+<h3 class="failures">Top search result for test contains test in title</h3>
+<span class="code">
+<pre>Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.Top search result for test contains test in title(SearchFromMainPageSpec.groovy:23)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">An empty search should have results</td>
+<td>5.150s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Searching on Amsterdam gets top result in Amsterdam</td>
+<td>3.087s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Top search result for test contains test in title</td>
+<td>2.748s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Starting ChromeDriver (v2.9.248304) on port 31926
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[0,608][WARNING]: PAC support disabled because there is no system implementation
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.12</a> at Jun 16, 2014 12:54:32 PM</p>
+</div>
+</div>
+</body>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchFromMainPageSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2014-05-26T23:47:45" hostname="angua" time="0.0">
+  <properties/>
+  <testcase name="classMethod" classname="SearchFromMainPageSpec" time="0.0">
+    <failure message="java.lang.IllegalStateException: No reports dir has been configured, you need to set in the config file or via the build adapter." type="java.lang.IllegalStateException">java.lang.IllegalStateException: No reports dir has been configured, you need to set in the config file or via the build adapter.
+	at geb.Browser.getReportGroupDir(Browser.groovy:727)
+	at geb.Browser.cleanReportGroupDir(Browser.groovy:760)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at geb.spock.GebReportingSpec.setupSpec(GebReportingSpec.groovy:31)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CreateAccountSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2014-06-05T10:04:50" hostname="angua" time="8.24">
+  <properties/>
+  <testcase name="An account can be created successfully" classname="CreateAccountSpec" time="8.24"/>
+  <system-out><![CDATA[Starting ChromeDriver (v2.9.248304) on port 27605
+]]></system-out>
+  <system-err><![CDATA[[0,585][WARNING]: PAC support disabled because there is no system implementation
+]]></system-err>
+</testsuite>

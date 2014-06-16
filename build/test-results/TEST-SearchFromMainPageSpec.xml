@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchFromMainPageSpec" tests="3" skipped="0" failures="3" errors="0" timestamp="2014-06-04T15:34:53" hostname="angua" time="24.603">
+  <properties/>
+  <testcase name="An empty search should have results" classname="SearchFromMainPageSpec" time="8.347">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at SearchResultsPage.hasResults(SearchResultsPage.groovy:17)
+	at geb.Browser.methodMissing(Browser.groovy:194)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.An empty search should have results(SearchFromMainPageSpec.groovy:18)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 8 more
+</failure>
+  </testcase>
+  <testcase name="Top search result for test contains test in title" classname="SearchFromMainPageSpec" time="8.198">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.content.PageContentTemplateFactoryDelegate.propertyMissing(PageContentTemplateFactoryDelegate.groovy:38)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:321)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:311)
+	at groovy.lang.Closure.getProperty(Closure.java:296)
+	at SearchResultsPage._clinit__closure2_closure7(SearchResultsPage.groovy:10)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.PageContentTemplateFactoryDelegate.methodMissing(PageContentTemplateFactoryDelegate.groovy:34)
+	at SearchResultsPage._clinit__closure2_closure9(SearchResultsPage.groovy:12)
+	at SearchResultsPage._clinit__closure2_closure9(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.Browser.propertyMissing(Browser.groovy:201)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at SearchFromMainPageSpec.Top search result for test contains test in title(SearchFromMainPageSpec.groovy:32)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 29 more
+</failure>
+  </testcase>
+  <testcase name="Searching on Amsterdam gets top result in Amsterdam" classname="SearchFromMainPageSpec" time="8.056">
+    <failure message="geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)" type="geb.waiting.WaitTimeoutException">geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.content.PageContentTemplateFactoryDelegate.propertyMissing(PageContentTemplateFactoryDelegate.groovy:38)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:321)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:311)
+	at groovy.lang.Closure.getProperty(Closure.java:296)
+	at SearchResultsPage._clinit__closure2_closure8(SearchResultsPage.groovy:11)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.PageContentTemplateFactoryDelegate.methodMissing(PageContentTemplateFactoryDelegate.groovy:34)
+	at SearchResultsPage._clinit__closure2_closure10(SearchResultsPage.groovy:13)
+	at SearchResultsPage._clinit__closure2_closure10(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.Browser.propertyMissing(Browser.groovy:201)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at SearchFromMainPageSpec.Searching on Amsterdam gets top result in Amsterdam(SearchFromMainPageSpec.groovy:46)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 29 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

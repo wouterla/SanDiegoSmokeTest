@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SearchFromMainPageSpec" tests="3" skipped="0" failures="3" errors="0" timestamp="2014-06-16T10:54:20" hostname="angua" time="10.985">
+  <properties/>
+  <testcase name="An empty search should have results" classname="SearchFromMainPageSpec" time="5.15">
+    <failure message="Assertion failed: &#10;&#10;title.contains(&quot;NationaleVacaturebank.nl&quot;)&#10;|     |&#10;|     false&#10;http://www.nationalevacaturebank.dev/ is not available&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.An empty search should have results(SearchFromMainPageSpec.groovy:9)
+</failure>
+  </testcase>
+  <testcase name="Top search result for test contains test in title" classname="SearchFromMainPageSpec" time="2.748">
+    <failure message="Assertion failed: &#10;&#10;title.contains(&quot;NationaleVacaturebank.nl&quot;)&#10;|     |&#10;|     false&#10;http://www.nationalevacaturebank.dev/ is not available&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.Top search result for test contains test in title(SearchFromMainPageSpec.groovy:23)
+</failure>
+  </testcase>
+  <testcase name="Searching on Amsterdam gets top result in Amsterdam" classname="SearchFromMainPageSpec" time="3.087">
+    <failure message="Assertion failed: &#10;&#10;title.contains(&quot;NationaleVacaturebank.nl&quot;)&#10;|     |&#10;|     false&#10;http://www.nationalevacaturebank.dev/ is not available&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+
+title.contains(&quot;NationaleVacaturebank.nl&quot;)
+|     |
+|     false
+http://www.nationalevacaturebank.dev/ is not available
+
+	at MainPage._clinit__closure1(MainPage.groovy:6)
+	at MainPage._clinit__closure1(MainPage.groovy)
+	at geb.Page.verifyThisPageAtOnly(Page.groovy:165)
+	at geb.Page.verifyAt(Page.groovy:133)
+	at geb.Browser.doAt(Browser.groovy:358)
+	at geb.Browser.at(Browser.groovy:289)
+	at geb.Browser.to(Browser.groovy:436)
+	at geb.Browser.to(Browser.groovy:412)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.Searching on Amsterdam gets top result in Amsterdam(SearchFromMainPageSpec.groovy:37)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Starting ChromeDriver (v2.9.248304) on port 31926
+]]></system-out>
+  <system-err><![CDATA[[0,608][WARNING]: PAC support disabled because there is no system implementation
+]]></system-err>
+</testsuite>

@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Test results - Class SearchFromMainPageSpec</title>
+<link href="css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<script src="js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class SearchFromMainPageSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; SearchFromMainPageSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">3</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">24.601s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="An empty search should have results"></a>
+<h3 class="failures">An empty search should have results</h3>
+<span class="code">
+<pre>geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at SearchResultsPage.hasResults(SearchResultsPage.groovy:17)
+	at geb.Browser.methodMissing(Browser.groovy:194)
+	at geb.spock.GebSpec.methodMissing(GebSpec.groovy:51)
+	at SearchFromMainPageSpec.An empty search should have results(SearchFromMainPageSpec.groovy:18)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 8 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Searching on Amsterdam gets top result in Amsterdam"></a>
+<h3 class="failures">Searching on Amsterdam gets top result in Amsterdam</h3>
+<span class="code">
+<pre>geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.content.PageContentTemplateFactoryDelegate.propertyMissing(PageContentTemplateFactoryDelegate.groovy:38)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:321)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:311)
+	at groovy.lang.Closure.getProperty(Closure.java:296)
+	at SearchResultsPage._clinit__closure2_closure8(SearchResultsPage.groovy:11)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.PageContentTemplateFactoryDelegate.methodMissing(PageContentTemplateFactoryDelegate.groovy:34)
+	at SearchResultsPage._clinit__closure2_closure10(SearchResultsPage.groovy:13)
+	at SearchResultsPage._clinit__closure2_closure10(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.Browser.propertyMissing(Browser.groovy:201)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at SearchFromMainPageSpec.Searching on Amsterdam gets top result in Amsterdam(SearchFromMainPageSpec.groovy:46)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 29 more
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="Top search result for test contains test in title"></a>
+<h3 class="failures">Top search result for test contains test in title</h3>
+<span class="code">
+<pre>geb.waiting.WaitTimeoutException: condition did not pass in 5.0 seconds (failed with exception)
+	at geb.waiting.Wait.waitFor(Wait.groovy:128)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:74)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.content.PageContentTemplateFactoryDelegate.propertyMissing(PageContentTemplateFactoryDelegate.groovy:38)
+	at groovy.lang.Closure.getPropertyTryThese(Closure.java:321)
+	at groovy.lang.Closure.getPropertyDelegateFirst(Closure.java:311)
+	at groovy.lang.Closure.getProperty(Closure.java:296)
+	at SearchResultsPage._clinit__closure2_closure7(SearchResultsPage.groovy:10)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.methodMissing(NavigableSupport.groovy:121)
+	at geb.content.PageContentTemplateFactoryDelegate.methodMissing(PageContentTemplateFactoryDelegate.groovy:34)
+	at SearchResultsPage._clinit__closure2_closure9(SearchResultsPage.groovy:12)
+	at SearchResultsPage._clinit__closure2_closure9(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.content.PageContentTemplate.create(PageContentTemplate.groovy:82)
+	at geb.content.PageContentTemplate.get(PageContentTemplate.groovy:54)
+	at geb.content.NavigableSupport.getContent(NavigableSupport.groovy:45)
+	at geb.content.NavigableSupport.propertyMissing(NavigableSupport.groovy:129)
+	at geb.Browser.propertyMissing(Browser.groovy:201)
+	at geb.spock.GebSpec.propertyMissing(GebSpec.groovy:55)
+	at SearchFromMainPageSpec.Top search result for test contains test in title(SearchFromMainPageSpec.groovy:32)
+Caused by: Assertion failed: 
+
+$(&quot;li.result-item&quot;)
+|
+[]
+
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy:7)
+	at SearchResultsPage._clinit__closure2_closure4(SearchResultsPage.groovy)
+	at geb.content.PageContentTemplate.invokeFactory(PageContentTemplate.groovy:97)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy:59)
+	at geb.content.PageContentTemplate.create_closure1(PageContentTemplate.groovy)
+	at geb.waiting.Wait.waitFor(Wait.groovy:117)
+	... 29 more
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">An empty search should have results</td>
+<td>8.347s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Searching on Amsterdam gets top result in Amsterdam</td>
+<td>8.056s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">Top search result for test contains test in title</td>
+<td>8.198s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>Generated by 
+<a href="http://www.gradle.org">Gradle 1.12</a> at Jun 4, 2014 5:35:18 PM</p>
+</div>
+</div>
+</body>
