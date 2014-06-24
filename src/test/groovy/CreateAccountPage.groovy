@@ -28,6 +28,12 @@ class CreateAccountCareerTargetPage extends Page {
         careerTargetForm { $("form#account-career-target-form") }
         jobCategoriesToggles { $("input[name=preferred_job_category[]]") }
         jobCategories { name -> jobCategoriesToggles.each { toggle -> if (toggle.text() == name) return toggle } }
-        nextButton(to: SearchResultsPage) { $("button#submit_forward") }
+        nextButton(to: YourAccountPage) { $("button#submit_forward") }
     }
+}
+
+class YourAccountPage extends Page {
+
+    static url = "/jouw-pagina"
+    static at = { waitFor { $("div.message-header h6", text: ~/.*account is aangemaakt.*/ )}}
 }
